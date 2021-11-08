@@ -35,7 +35,7 @@ useEffect(() => {
         <h1>{something}</h1>
       </div>
       <div className="cat">
-        <img src={url} />
+        <img alt="catiamge" src={url} />
       </div>
       <div className="button">
         <button onClick={myfunc}>New Quote</button>
