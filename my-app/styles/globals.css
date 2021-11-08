@@ -1,0 +1,64 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+
+body {
+  background-image: url('https://media2.giphy.com/media/1BQyCn2V0rrr2/giphy.gif?cid=790b7611717ed7d74aa6b6dd1d2b0585147f3624d28921d9&rid=giphy.gif&ct=g');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.title h2 {
+  background-color: whitesmoke;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.quote h1 {
+  background-color: whitesmoke;
+  padding: 30px;
+  border-radius: 10px;
+  width: 500px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.cat {
+  display: flex;
+  justify-content: center;
+}
+
+.cat img {
+  width: 500px;
+  height: 400px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+button {
+  font-size: 3em;
+  background-color: thistle !important;
+  color: whitesmoke;
+}
