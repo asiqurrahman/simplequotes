@@ -6,8 +6,6 @@ import React, { useState, useEffect } from 'react';
 export default function Home({data}) {
 
   const [url, setUrl] = useState("");
-
-  console.log(JSON.stringify(data))
   const something = data[0].q
 
   const myfunc = () => {
@@ -47,7 +45,6 @@ useEffect(() => {
 export const getServerSideProps = async () => {
     const response = await fetch("https://zenquotes.io/api/quotes/")
     const data = await response.json()
-    console.log(data)
   return {
     props: {
       data
